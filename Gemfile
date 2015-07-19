@@ -51,10 +51,13 @@ gem 'carrierwave'
 gem "figaro"
 
 # Fog
-gem "fog", "~> 1.3.1"
+# gem "fog", "~> 1.3.1"
 
 # Mini Magick
 gem 'mini_magick'
+
+# CarrierWave-AWS
+gem 'carrierwave-aws'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

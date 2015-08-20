@@ -13,9 +13,12 @@ FactoryGirl.define do
   end
 
   factory :lesson do
+    title "Test Title"
+    subtitle "Test Subtitle"
   end
 
   factory :section do
+    title "Test Section Title"
   end
 
 

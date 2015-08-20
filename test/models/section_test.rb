@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class SectionTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+ test "section" do
+ section = build(:section)
+ assert section.present?
+ end
 end

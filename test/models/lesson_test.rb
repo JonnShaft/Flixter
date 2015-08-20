@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class LessonTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+ test "lesson" do
+ lesson = build(:lesson)
+ assert lesson.present?
+ end
 end

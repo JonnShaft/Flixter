@@ -15,4 +15,4 @@
 * Shows all courses that students are enrolled in & all courses instructors are teaching.
 
 
-![Here's a peek at the homepage once an instructor is signed in.](https://raw.github.com/jonnshaft/flixter/master/FlixterScreenShot.png)
+![Here's a peek at the homepage once an instructor is signed in.](https://raw.github.com/JonnShaft/Flixter/blob/master/flixter-ahmad-jamal.herokuapp.com.jpg)

@@ -1,28 +1,18 @@
-== README
+# Flixter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Written mostly in Ruby but also utilizes JavaScript and jQuery.
 
-Things you may want to cover:
+### You can view Flixter [here](https://flixter-ahmad-jamal.herokuapp.com/). Sign up, enroll into a course, make your own course and have fun learning!
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Features
+* Easy to use platform for instructors to create courseas and make money.
+* Stripe is used to process payments by students purchasing courses made by teachers.
+* Teachers can customize course lessons and sections.
+* jQuery is used for drag and drop for instructors to easily organize lessons and courses.
+* Use Amazon Web Services(S3) for photos and video storage.
+* Devise for user security, sign-in forms, etc.
+* Users can be both students and instrucors with restricted Admin access for instructor course development.
+* Shows all courses that students are enrolled in & all courses instructors are teaching.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+![Here's a peek at the homepage once an instructor is signed in.](https://raw.github.com/jonnshaft/flixter/master/FlixterScreenShot.png)
